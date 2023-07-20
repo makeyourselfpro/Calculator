@@ -1,0 +1,26 @@
+body{
+  background: linear-gradient(to left bottom , dodgerblue , gray , orange);
+  height: 85vh;
+}
+form{
+  box-shadow: 0px 0px 10px;
+  width: 300px;
+  padding:30px  10px;
+  margin: 100px auto;
+  background-color: rgba(0, 0, 0, 0.669);
+  border-radius: 20px;
+}
+input{
+  font-size: 30px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
