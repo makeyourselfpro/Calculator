@@ -1,0 +1,23 @@
+body{
+  background-color: dodgerblue orange , gray;
+}
+.container{
+  margin: 150px auto;
+  box-shadow: 0px 0px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: rgba(121, 121, 121, 0.192);
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 300px;
+}
+.display{
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
