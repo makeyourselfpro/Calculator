@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(to right top , salmon , gray , dodgerblue);
+height: 100vh;
+}
+.cal{
+  padding:50px 10px;
+  width: 400px;
+  margin: 60px auto;
+box-shadow: 0px 0px 10px;
+border-radius: 20px;
+background-color: rgba(0, 0, 0, 0.479);
+}
+button,
+input{
+  font-size: 30px;
+  padding: 10px 20px;
+border-radius: 20px;
+cursor: pointer;
+}
+input{
+  width: 85%;
+  padding: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
